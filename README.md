@@ -1,4 +1,5 @@
 # A Trello-like board application built with React 
+[Check out the live website](https://xeniasuper.github.io/trello-board/)
 
 ### Features:
 1) Add a column
