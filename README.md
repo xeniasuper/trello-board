@@ -1,6 +1,6 @@
 # A Trello-like board application built with React 
 
-## Features:
+### Features:
 1) Add a column
 2) Delete a column
 3) Edit column title
@@ -8,5 +8,5 @@
 4) Delete a card
 5) Edit a card
 
-To-Do:
+### To-Do:
 1) Drag-n-drop
