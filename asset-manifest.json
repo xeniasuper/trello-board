@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/trello-board/static/css/main.a2ea8286.chunk.css",
-    "main.js": "/trello-board/static/js/main.3b072480.chunk.js",
-    "main.js.map": "/trello-board/static/js/main.3b072480.chunk.js.map",
+    "main.css": "/trello-board/static/css/main.c0dc6c3c.chunk.css",
+    "main.js": "/trello-board/static/js/main.670b9f5a.chunk.js",
+    "main.js.map": "/trello-board/static/js/main.670b9f5a.chunk.js.map",
     "runtime~main.js": "/trello-board/static/js/runtime~main.c0bdb7f7.js",
     "runtime~main.js.map": "/trello-board/static/js/runtime~main.c0bdb7f7.js.map",
     "static/js/2.44949046.chunk.js": "/trello-board/static/js/2.44949046.chunk.js",
     "static/js/2.44949046.chunk.js.map": "/trello-board/static/js/2.44949046.chunk.js.map",
     "index.html": "/trello-board/index.html",
-    "precache-manifest.6a9967314bf2e76492b64b50bee449d7.js": "/trello-board/precache-manifest.6a9967314bf2e76492b64b50bee449d7.js",
+    "precache-manifest.5730c7f75767b30b1ac198c90764170c.js": "/trello-board/precache-manifest.5730c7f75767b30b1ac198c90764170c.js",
     "service-worker.js": "/trello-board/service-worker.js",
-    "static/css/main.a2ea8286.chunk.css.map": "/trello-board/static/css/main.a2ea8286.chunk.css.map"
+    "static/css/main.c0dc6c3c.chunk.css.map": "/trello-board/static/css/main.c0dc6c3c.chunk.css.map"
   }
 }
