@@ -27,6 +27,7 @@ body, html {
 }
 
 .board {
+    padding: 12px;
     height: 95vh;
     width: 97%;
     display: flex;
@@ -71,7 +72,7 @@ body, html {
     box-sizing: border-box;
     max-height: 95%;
     width: 272px;
-    background-color: var(--column-color);
+    /*background-color: var(--column-color);*/
     border-radius: 3px;
     padding: 12px;
     overflow-y: auto;
@@ -79,6 +80,7 @@ body, html {
     -ms-overflow-style: none;
     margin-right: 12px;
     align-self: flex-start;
+    box-shadow: 0 0 10px 0 rgba(51, 165, 181, 0.58);
 }
 
 .column::-webkit-scrollbar{
@@ -159,11 +161,11 @@ body, html {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    border: none;
     width: 248px;
     min-height: 35px;
     background-color: #FFFFFF;
-    box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);
+    border: solid #38c2d5 1px;
+    /*box-shadow: 0px 1px 4px rgba(9, 45, 66, 0.25);*/
     border-radius: 3px;
     padding: 8px 12px;
     margin-bottom: 8px;
@@ -220,7 +222,7 @@ body, html {
 }
 
 .add-column {
-    background-color: var(--button-green);
+    background: linear-gradient(to right, #2BB3FF, #51D7D4);
     border: none;
     width: 147px;
     height: 30px;
@@ -235,9 +237,12 @@ body, html {
     outline: none;
 }
 
+.add-column:hover {
+    background: linear-gradient(to right, #51D7D4, #2BB3FF);
+}
+
 .add-column:active {
     outline: none;
-    background-color: var(--button-dark-green);
     transform: translateY(2px);
 }
 
