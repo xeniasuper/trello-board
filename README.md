@@ -13,3 +13,4 @@
 1) Drag-n-drop
 2) Add tests
 3) Add comments
+4) Autofocus on column title, new card
