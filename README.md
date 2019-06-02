@@ -2,7 +2,8 @@
 [Check out the live website](https://xeniasuper.github.io/trello-board/)
 ![image](https://github.com/xeniasuper/trello-board/blob/master/public/board-screen.png)
 
-[Layout](https://www.figma.com/file/HWascyHh1QOpKF4PS88xUyCc/Trello-like-board?node-id=0%3A1)
+### Layout: 
+https://www.figma.com/file/HWascyHh1QOpKF4PS88xUyCc/Trello-like-board?node-id=0%3A1
 
 ### Features:
 1) Add a column
