@@ -11,3 +11,5 @@
 
 ### To-Do:
 1) Drag-n-drop
+2) Add tests
+3) Add comments
