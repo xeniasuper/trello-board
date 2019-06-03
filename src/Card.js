@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 class Card extends React.Component {
     constructor(props) {
@@ -6,6 +6,10 @@ class Card extends React.Component {
         this.state = {
             inputValue : "",
         }
+    }
+
+    componentDidMount() {
+        this.textInput.focus();
     }
 
     handleInput = (e) => {
@@ -18,6 +22,7 @@ class Card extends React.Component {
         return (
             <div className="card">
                 <div className="card-text"
+                     ref={(input) => { this.textInput = input; }}
                      contentEditable="true"
                      placeholder="Введите название кaрточки"
                      spellCheck="false"

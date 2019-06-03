@@ -1,16 +1,23 @@
-import React from 'react';
-import {Column} from './Column'
+import React from "react";
+import {Column} from "./Column"
 
 class Board extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            columns : [],
+            ids : [],
+        }
+    }
+
+    componentDidMount() {
+        this.setState({
             columns : [<Column id="0column"
                                key="0column"
                                removeColumn={this.removeColumn}
             />],
             ids : ["0column"],
-        }
+        })
     }
 
     addColumn = () => {

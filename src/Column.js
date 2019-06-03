@@ -1,5 +1,5 @@
-import React from 'react';
-import {Cards} from './Cards'
+import React from "react";
+import {Cards} from "./Cards"
 import {ColumnHeader} from "./ColumnHeader";
 
 class Column extends React.Component {
@@ -8,12 +8,14 @@ class Column extends React.Component {
         this.state = {
             id : this.props.id,
             isNameAdded : false,
+            cards : null,
         }
     }
 
     handleAddColumnClick = () => {
         this.setState({
             isNameAdded : true,
+            cards : <Cards />
         })
     };
 
@@ -24,7 +26,8 @@ class Column extends React.Component {
                               isAdded={this.state.isNameAdded}
                               handleRemoveColumn={() => this.props.removeColumn(this.state.id)}
                 />
-                <Cards visible={this.state.isNameAdded}/>
+                {/*<Cards visible={this.state.isNameAdded}/>*/}
+                {this.state.cards}
             </div>
         )
     }

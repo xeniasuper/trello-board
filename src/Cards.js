@@ -1,5 +1,5 @@
-import React from 'react';
-import {Card} from './Card.js'
+import React from "react";
+import {Card} from "./Card.js"
 import {AddCard} from "./AddCard";
 
 class Cards extends React.Component {
@@ -7,12 +7,19 @@ class Cards extends React.Component {
         super(props);
 
         this.state = {
+            ids : [],
+            cards : [],
+        }
+    }
+
+    componentDidMount() {
+        this.setState({
             ids : ["0card"],
             cards : [<Card id="0card"
                            key="0card"
                            removeCard={this.removeCard}
             />],
-        }
+        })
     }
 
     removeCard = (id) => {
@@ -47,15 +54,11 @@ class Cards extends React.Component {
     };
 
     render() {
-        let visibilityClassBlock = this.props.visible ? "block" : "none";
-        let visibilityClassFlex = this.props.visible ? "flex" : "none";
         return (
-            <div className={`cards ${visibilityClassBlock}`}
+            <div className={"cards block"}
             >
                 {this.state.cards}
-                <AddCard visibilityClass={visibilityClassFlex}
-                         createCard={this.createCard}
-                />
+                <AddCard createCard={this.createCard} />
             </div>
         )
     }

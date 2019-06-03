@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
 class AddCard extends React.Component {
     render() {
         return (
-            <div className={`add-card ${this.props.visibilityClass}`}>
+            <div className={"add-card flex"}>
                 <div className="plus-icon"></div>
                 <p onClick={this.props.createCard}
                 >

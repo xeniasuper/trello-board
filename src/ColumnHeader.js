@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 class ColumnHeader extends React.Component {
     constructor(props) {
@@ -22,12 +22,17 @@ class ColumnHeader extends React.Component {
         })
     };
 
+    componentDidMount(){
+        this.textInput.focus();
+    }
+
     render() {
         let none = this.state.isNameAdded ?  " none" : "";
         let type = this.state.isNameAdded ? " header-text" : "card column-name";
         return (
             <div className="column-header">
                 <div className={type}
+                     ref={(input) => { this.textInput = input; }}
                      contentEditable="true"
                      spellCheck="false"
                      onInput={this.handleChange}
