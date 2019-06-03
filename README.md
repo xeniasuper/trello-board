@@ -22,3 +22,4 @@ https://www.figma.com/file/HWascyHh1QOpKF4PS88xUyCc/Trello-like-board?node-id=0%
 2) Add tests
 3) Add comments
 5) Add cpmments on design & why there are no media queries
+6) Stylus
