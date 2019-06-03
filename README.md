@@ -21,4 +21,5 @@ https://www.figma.com/file/HWascyHh1QOpKF4PS88xUyCc/Trello-like-board?node-id=0%
 1) Drag-n-drop
 2) Add tests
 3) Add comments
-4) Autofocus on column title, new card
+5) Add cpmments on design & why there are no media queries
+6) Stylus
