@@ -21,5 +21,3 @@ https://www.figma.com/file/HWascyHh1QOpKF4PS88xUyCc/Trello-like-board?node-id=0%
 1) Drag-n-drop
 2) Add tests
 5) Add cpmments on design & why there are no media queries
-6) Split CSS into modules
-7) SASS
