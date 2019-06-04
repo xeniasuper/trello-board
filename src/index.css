@@ -1,0 +1,14 @@
+:root {
+  --footer-gray: #6b808c;
+  --button-blue: #2bb3ff;
+  --button-mint: #51d7d4;
+  --placeholder-gray: #b8b9bb;
+  --add-remove-icons: #205661;
+  --column-shadow: rgba(51,165,181,0.58);
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+}
+body,
+html {
+  overflow-y: hidden;
+}

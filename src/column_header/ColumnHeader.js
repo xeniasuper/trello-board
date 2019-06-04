@@ -1,4 +1,5 @@
 import React from "react";
+import "./column_header.css"
 
 class ColumnHeader extends React.Component {
     constructor(props) {
@@ -35,6 +36,7 @@ class ColumnHeader extends React.Component {
                      ref={(input) => { this.textInput = input; }}
                      contentEditable="true"
                      spellCheck="false"
+                     placeholder="Введите название колонки"
                      onInput={this.handleChange}
                 >
                 </div>

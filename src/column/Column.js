@@ -1,6 +1,7 @@
 import React from "react";
-import {Cards} from "./Cards"
-import {ColumnHeader} from "./ColumnHeader";
+import {Cards} from "../cards/Cards"
+import {ColumnHeader} from "../column_header/ColumnHeader";
+import "./column.css";
 
 class Column extends React.Component {
     constructor(props) {
@@ -26,7 +27,6 @@ class Column extends React.Component {
                               isAdded={this.state.isNameAdded}
                               handleRemoveColumn={() => this.props.removeColumn(this.state.id)}
                 />
-                {/*<Cards visible={this.state.isNameAdded}/>*/}
                 {this.state.cards}
             </div>
         )

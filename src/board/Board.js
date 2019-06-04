@@ -1,5 +1,6 @@
 import React from "react";
-import {Column} from "./Column"
+import {Column} from "../column/Column"
+import "./board.css"
 
 class Board extends React.Component {
     constructor(props) {

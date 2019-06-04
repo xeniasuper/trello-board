@@ -1,0 +1,39 @@
+.column
+  flex-shrink: 0
+  box-sizing: border-box
+  max-height: 95%
+  width: 272px
+  border-radius: 3px
+  padding: 12px
+  overflow-y: auto
+  scrollbar-width: none
+  /* Firefox */
+  -ms-overflow-style: none
+  margin: 12px
+  align-self: flex-start
+  box-shadow: 0 0 10px 0 var(--column-shadow)
+
+.column::-webkit-scrollbar
+  width: 0
+
+
+.one-more-column
+  height 43px
+  padding 8px 12px
+  font-weight normal
+  flex-direction row
+  /* JS sets display to flex */
+  flex-shrink 0
+  align-items center
+  cursor pointer
+
+.one-more-column
+    p
+      margin 0 0 0 8px
+      height 15px
+      color var(--footer-gray)
+      display flex
+      flex-flow column
+      align-content center
+
+

@@ -1,0 +1,104 @@
+.plus-icon {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  opacity: 0.3;
+  margin-left: 6px;
+}
+.plus-icon:before,
+.plus-icon:after {
+  position: absolute;
+  content: ' ';
+  height: 15px;
+  width: 2px;
+  background-color: var(--add-remove-icons);
+}
+.plus-icon:before {
+  transform: rotate(90deg);
+}
+.plus-icon:after {
+  transform: rotate(-180deg);
+}
+.delete-icon {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  opacity: 0.3;
+}
+.delete-icon:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.delete-icon:before,
+.delete-icon:after {
+  position: absolute;
+  content: ' ';
+  height: 15px;
+  width: 2px;
+  background-color: var(--add-remove-icons);
+}
+.delete-icon:before {
+  transform: rotate(45deg);
+}
+.delete-icon:after {
+  transform: rotate(-45deg);
+}
+.one-more-column {
+  height: 43px;
+  padding: 8px 12px;
+  display: flex;
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: 13px;
+  flex-direction: row;
+/* JS sets display to flex */
+  flex-shrink: 0;
+  align-items: center;
+  cursor: pointer;
+}
+.one-more-column > p {
+  margin: 0 0 0 8px;
+  height: 15px;
+  color: var(--footer-gray);
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+}
+.add-column {
+  background: linear-gradient(to right, var(--button-blue), var(--button-mint));
+  border: none;
+  width: 147px;
+  height: 30px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.add-column:focus {
+  outline: none;
+}
+.add-column:hover {
+  background: linear-gradient(to right, var(--button-mint), var(--button-blue));
+}
+.add-column:active {
+  outline: none;
+  transform: translateY(2px);
+}
+/* For placeholders within contenteditable divs */
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: block;
+/* For Firefox */
+  color: var(--placeholder-gray);
+  font-weight: normal;
+}
+.none {
+  display: none !important;
+}
+.block {
+  display: block !important;
+}
+.flex {
+  display: flex !important;
+}

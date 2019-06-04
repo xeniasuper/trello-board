@@ -1,6 +1,7 @@
 import React from "react";
-import {Card} from "./Card.js"
-import {AddCard} from "./AddCard";
+import {Card} from "../card/Card.js"
+import {AddCard} from "../add_card/AddCard";
+import "./cards.css"
 
 class Cards extends React.Component {
     constructor(props) {

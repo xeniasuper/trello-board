@@ -1,0 +1,35 @@
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 248px;
+  min-height: 35px;
+  background-color: #fff;
+  border: solid #38c2d5 1px;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+.card-text:focus {
+  outline: none;
+}
+.card:focus {
+  outline: none;
+}
+.header-text {
+  width: 239px;
+  min-height: 19px;
+}
+.card-text {
+  width: 92%;
+}
+.remove-card,
+.remove-column {
+  margin-right: -8px;
+}
+.header-text:focus,
+.card:focus,
+.card-text:focus {
+  outline: none;
+}
