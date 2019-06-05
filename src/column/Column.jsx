@@ -7,7 +7,6 @@ class Column extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            id : this.props.id,
             isNameAdded : false,
             cards : null,
         }
@@ -16,7 +15,7 @@ class Column extends React.Component {
     handleAddColumnClick = () => {
         this.setState({
             isNameAdded : true,
-            cards : <Cards />
+            cards : <Cards id={this.props.id}/>
         })
     };
 
@@ -25,7 +24,7 @@ class Column extends React.Component {
             <div className="column">
                 <ColumnHeader handleAddColumnClick={this.handleAddColumnClick}
                               isAdded={this.state.isNameAdded}
-                              handleRemoveColumn={() => this.props.removeColumn(this.state.id)}
+                              handleRemoveColumn={() => this.props.removeColumn(this.props.id)}
                 />
                 {this.state.cards}
             </div>

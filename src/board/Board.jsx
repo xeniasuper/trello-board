@@ -44,15 +44,15 @@ class Board extends React.Component {
 
     render() {
         return (
-            <div className="board">
-                {this.state.columns}
-                <div className="one-more-column column"
-                     onClick={this.addColumn}
-                >
-                    <div className="plus-icon"></div>
-                    <p>Добавить еще одну колонку</p>
+                <div className="board">
+                    {this.state.columns}
+                    <div className="one-more-column column"
+                         onClick={this.addColumn}
+                    >
+                        <div className="plus-icon"></div>
+                        <p>Добавить еще одну колонку</p>
+                    </div>
                 </div>
-            </div>
         )
     }
 }

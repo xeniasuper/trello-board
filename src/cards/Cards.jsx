@@ -1,5 +1,5 @@
 import React from "react";
-import {Card} from "../card/Card.js"
+import {Card} from "../card/Card.jsx"
 import {AddCard} from "../add_card/AddCard";
 import "./cards.css"
 
@@ -18,6 +18,7 @@ class Cards extends React.Component {
             ids : ["0card"],
             cards : [<Card id="0card"
                            key="0card"
+                           index={0}
                            removeCard={this.removeCard}
             />],
         })
@@ -56,11 +57,12 @@ class Cards extends React.Component {
 
     render() {
         return (
-            <div className={"cards block"}
-            >
-                {this.state.cards}
-                <AddCard createCard={this.createCard} />
-            </div>
+                <div className={"cards block"}
+                >
+                    {this.state.cards}
+                    <AddCard createCard={this.createCard}/>
+                </div>
+
         )
     }
 }
