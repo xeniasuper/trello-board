@@ -15,7 +15,8 @@ https://www.figma.com/file/HWascyHh1QOpKF4PS88xUyCc/Trello-like-board?node-id=0%
 
 ### Technologies:
 1) React
-2) CSS, HTML
+2) Stylus
+3) HTML
 
 ### To-Do:
 1) Drag-n-drop
