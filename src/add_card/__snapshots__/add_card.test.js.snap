@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly board component 1`] = `
+<div
+  className="add-card flex"
+>
+  <div
+    className="plus-icon"
+  />
+  <p
+    id="add-one-more-card"
+    onClick={[MockFunction]}
+  >
+    Добавить еще одну карточку
+  </p>
+</div>
+`;

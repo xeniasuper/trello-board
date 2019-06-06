@@ -1,11 +1,9 @@
-import React from "react";
-import { Board } from "../board/Board";
-import "./app.css";
+import React from 'react';
+import Board from '../board/Board';
+import './app.css';
 
-const App = (props) => {
-    return (
-        <Board />
-    )
-};
-
-export { App }
+export default function App(props) {
+  return (
+    <Board />
+  );
+}
