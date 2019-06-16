@@ -42,5 +42,4 @@ export default class Column extends React.Component {
 Column.propTypes = {
   id: PropTypes.string.isRequired,
   removeColumn: PropTypes.func.isRequired,
-  key: PropTypes.string.isRequired,
 };
