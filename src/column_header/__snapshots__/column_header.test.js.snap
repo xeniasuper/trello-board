@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly board component 1`] = `
+<div
+  className="column-header"
+>
+  <div
+    className="card column-name"
+    contentEditable="true"
+    onInput={[Function]}
+    placeholder="Введите название колонки"
+    spellCheck="false"
+  />
+  <button
+    className="add-column "
+    onClick={[Function]}
+    type="button"
+  >
+    Добавить колонку
+  </button>
+  <div
+    className="delete-icon remove-column"
+    onClick={[MockFunction]}
+  />
+</div>
+`;

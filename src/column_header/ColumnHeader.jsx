@@ -13,7 +13,7 @@ export default class ColumnHeader extends React.Component {
 
   handleChange = (e) => {
     this.setState({
-      text: e.currentTarget.textContent,
+      text: e.target.textContent,
     });
   };
 
@@ -62,7 +62,6 @@ export default class ColumnHeader extends React.Component {
 }
 
 ColumnHeader.propTypes = {
-  handleAddColumn: PropTypes.func.isRequired,
   handleAddColumnClick: PropTypes.func.isRequired,
   handleRemoveColumn: PropTypes.func.isRequired,
 };

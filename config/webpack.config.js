@@ -323,39 +323,9 @@ module.exports = function(webpackEnv) {
             // "url" loader works like "file" loader except that it embeds assets
             // smaller than specified limit in bytes as data URLs to avoid requests.
             // A missing `test` is equivalent to a match.
-    // TODO
-			// {
-      //       test: /\.styl$/,
-      //       use: [
-      //         require.resolve('style-loader'),
-      //         {
-      //           loader: 'css-loader',
-      //           options: {
-      //             // можно удалить, если не нужны css модули
-      //             modules: true,
-      //             localIdentName: '[name]__[local]--[hash:base64:5]',
-      //             camelCase: true,
-      //             sourceMap: true,
-      //           },
-      //         }, {
-      //           // postcss-loader и autoprefixer уже есть в create-react-app
-      //           loader: 'postcss-loader',
-      //           options: {
-      //             plugins: () => [
-      //               autoprefixer({ browsers: ['>= 10%', 'last 2 versions'] })
-      //             ],
-      //             sourceMap: true,
-      //           },
-      //         }, {
-      //           loader: 'stylus-loader',
-      //           options: {
-      //             sourceMap: true,
-      //           },
-      //         }],
+
           {
             test: /\.styl$/,
-            // loader: 'style!css!autoprefixer?browsers=last 2 versions!stylus?resolve url'
-            //test: sassModuleRegex,
             use: getStyleLoaders(
               {
                 importLoaders: 2,
