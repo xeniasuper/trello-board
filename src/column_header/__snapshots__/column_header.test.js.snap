@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`render correctly board component 1`] = `
+exports[`ColumnHeader displays ColumnHeader correctly 1`] = `
 <div
   className="column-header"
 >
@@ -20,7 +20,7 @@ exports[`render correctly board component 1`] = `
   </button>
   <div
     className="delete-icon remove-column"
-    onClick={[MockFunction]}
+    onClick={[Function]}
   />
 </div>
 `;
